@@ -16,6 +16,7 @@ provider "aws" {
     tags = {
       Environment = var.environment
       Product     = var.name
+      Terraform   = "yes"
     }
   }
 }
